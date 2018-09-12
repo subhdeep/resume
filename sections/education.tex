@@ -1,0 +1,17 @@
+\section*{\sc Educational Qualifications}
+
+\newcommand{\education}[4]{
+  & #1 & #2 & &#3 & #4
+}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{ | L{0.05cm} l | L{3cm} | L{0.05cm} C{8cm} | r |}
+  \hline
+  \education{\textbf{Year}}{\textbf{Degree}}{\textbf{Institution(Board)}}{\textbf{CGPA/\%}}\\
+  \hline
+  \education{2015 -- 2019 (Expected)}{B.Tech, CSE}{Indian Institute of Technology, Kanpur}{---/10.0}\\
+  \education{2015}{AISSCE -- XII}{Sudhir Memorial Institute, Kolkata (CBSE)}{88.4\%}\\
+  \education{2013}{AISSE -- X}{DAV Model School, Kharagpur (CBSE)}{10.0/10.0}\\
+  \hline
+\end{tabular}
